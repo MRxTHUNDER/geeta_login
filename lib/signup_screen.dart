@@ -168,14 +168,14 @@ class SignupScreen extends StatelessWidget {
                       style: ElevatedButton.styleFrom(
                         backgroundColor: Colors.blueAccent,
                         padding:
-                            EdgeInsets.symmetric(horizontal: 80, vertical: 15),
+                            EdgeInsets.symmetric(horizontal: 80, vertical: 13),
                         shape: RoundedRectangleBorder(
                           borderRadius: BorderRadius.circular(
                               25.0), // Adjust the radius as needed
                         ),
                       ),
                       child: Text(
-                        'LOG IN',
+                        'REGISTER',
                         style: TextStyle(color: Colors.white, fontSize: 15),
                       ),
                     ),
